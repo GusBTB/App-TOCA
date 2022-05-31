@@ -1,0 +1,16 @@
+.footer {
+  height: 6.5%;
+  display: flex;
+  justify-content: center;
+}
+.footer__div {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.svgFooter {
+  font-size: 2em;
+  color: #012b40;
+}
