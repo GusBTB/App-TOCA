@@ -22,7 +22,17 @@ export const Img = styled.img`
   width: 250px;
 `;
 
-export const BottomDiv = styled.div`
+export const InputErrorDiv = styled.div`
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+`;
+
+export const BottomDiv = styled.form`
   width: 100%;
   height: 50%;
   display: flex;

@@ -12,6 +12,7 @@ export const Input = styled.input`
   :focus {
     outline: 0;
     box-shadow: 0 0 0 0;
+    background-color: #5d7a88;
   }
   ::placeholder {
     color: black;
