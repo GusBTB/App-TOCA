@@ -19,7 +19,7 @@ const GP = () => {
     <Container>
       <Header />
       <MiddleDiv>
-        <AreaTitle>GP</AreaTitle>
+        <AreaTitle>Gestão de pessoas</AreaTitle>
         <MembersDiv>
           <AreaMembers />
         </MembersDiv>

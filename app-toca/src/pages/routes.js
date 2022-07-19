@@ -15,18 +15,14 @@ export const AppRoutes = () => {
     <Routes>
       <Route index element={<Login />} />
       <Route path="register" element={<Register />} />
-      <Route path="home" element={<ProtectedRoute element={<Home />} />} />
-      <Route path="adm" element={<ProtectedRoute element={<Adm />} />} />
-      <Route
-        path="criacao"
-        element={<ProtectedRoute element={<Criacao />} />}
-      />
-      <Route
-        path="eventos"
-        element={<ProtectedRoute element={<Eventos />} />}
-      />
-      <Route path="gp" element={<ProtectedRoute element={<GP />} />} />
-      <Route path="mkt" element={<ProtectedRoute element={<Mkt />} />} />
+      <Route path="home" element={<Home />} />
+      <Route path="adm" element={<Adm />} />
+      <Route path="criacao" element={<Criacao />} />
+      <Route path="eventos" element={<Eventos />} />
+      <Route path="gp" element={<GP />} />
+      <Route path="mkt" element={<Mkt />} />
     </Routes>
   );
 };
+
+export default AppRoutes;
