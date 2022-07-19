@@ -6,7 +6,7 @@ import {
   Container,
   MembersDiv,
   MiddleDiv,
-} from "./styles";
+} from "../AreaPagesStyle/styles.js";
 import { Button, ButtonSecondary } from "../../components/Button/styles";
 import Post from "../../components/Post";
 import AreaMembers from "../../components/AreaMembers";
