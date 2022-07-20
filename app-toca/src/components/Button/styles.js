@@ -18,7 +18,7 @@ export const ButtonSecondary = styled.button`
   height: ${(props) => props.height};
   font-size: ${(props) => props.fontSize};
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 400;
   background-color: transparent;
   color: #012b40;
 `;

@@ -1,4 +1,4 @@
-import { Container, PageContainer } from "./styles";
+import { Container, PageContainer, Img } from "./styles";
 import { useNavigate } from "react-router-dom";
 import { FaMoneyBillWave } from "react-icons/fa"; //Adm
 import { HiOutlineLightBulb } from "react-icons/hi"; //criacao
