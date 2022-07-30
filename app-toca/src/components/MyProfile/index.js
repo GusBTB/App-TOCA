@@ -32,7 +32,7 @@ const MyProfile = ({ setDisplayMyProfile }) => {
     idade: 22,
     curso: "EQN",
     ano: 19,
-    frase: "Sem piteira fica pegado",
+    frase: "A vida não é um morango",
     id: 1,
   };
   return (
